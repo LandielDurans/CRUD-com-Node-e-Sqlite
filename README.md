@@ -30,7 +30,7 @@ Para rodar este projeto, você precisará ter:
 
 4. Instale as dependências
 ```
-      npm install
+   npm install
 ```
 ## Configuração do Banco de Dados
 

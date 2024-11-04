@@ -29,9 +29,9 @@ Para rodar este projeto, você precisará ter:
    cd CRUD-com-Node-e-Sqlite
 
 4. Instale as dependências
-
+```
       npm install
-
+```
 ## Configuração do Banco de Dados
 
 Este projeto utiliza o SQLite como banco de dados. O banco será gerado automaticamente na primeira execução do projeto, mas você pode criar um arquivo .db manualmente e definir o caminho para ele no código, caso deseje.

@@ -26,7 +26,7 @@ Para rodar este projeto, você precisará ter:
 
 2. Navegue até o diretório do projeto
    ```
-   cd CRUD-com-Node-e-Sqlite
+      cd CRUD-com-Node-e-Sqlite
 
 4. Instale as dependências
 ```bash

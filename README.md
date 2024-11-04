@@ -111,9 +111,9 @@ Aqui está um exemplo que você pode usar:
 
 As validações dos dados de entrada são feitas com o pacote Joi. Os dados devem seguir o formato JSON e respeitar os seguintes critérios:
 
-- name: string obrigatória, entre 3 e 50 caracteres.
-- description: string opcional, máximo de 200 caracteres.
-- price: número obrigatório, maior que zero.
+ ```name:``` string obrigatória, entre 3 e 50 caracteres.
+```description:``` string opcional, máximo de 200 caracteres.
+```price:``` número obrigatório, maior que zero.
 
 ## Tecnologias
 

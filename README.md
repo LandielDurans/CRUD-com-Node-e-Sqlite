@@ -124,14 +124,6 @@ As validações dos dados de entrada são feitas com o pacote Joi. Os dados deve
 - SQLite - Banco de dados relacional leve.
 - Joi - Biblioteca de validação de dados para JavaScript.
 
-## Contribuição
-
-1. Faça um fork do projeto.
-2. Crie uma nova branch (git checkout -b minha-branch).
-3. Commit suas alterações (git commit -am 'Adiciona nova funcionalidade').
-4. Dê um push na branch (git push origin minha-branch).
-5. Abra um Pull Request.
-
 ---
 
 Esse README oferece uma visão geral e é uma ótima introdução para usuários e colaboradores. Se precisar de ajustes específicos, me avise!

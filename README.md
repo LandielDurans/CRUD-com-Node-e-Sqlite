@@ -119,10 +119,10 @@ As validações dos dados de entrada são feitas com o pacote Joi. Os dados deve
 
 ## Tecnologias
 
-Node.js - Ambiente de execução para JavaScript.
-Express - Framework web para Node.js.
-SQLite - Banco de dados relacional leve.
-Joi - Biblioteca de validação de dados para JavaScript.
+- Node.js - Ambiente de execução para JavaScript.
+- Express - Framework web para Node.js.
+- SQLite - Banco de dados relacional leve.
+- Joi - Biblioteca de validação de dados para JavaScript.
 
 ## Contribuição
 

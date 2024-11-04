@@ -23,10 +23,10 @@ Para rodar este projeto, você precisará ter:
    git clone https://github.com/LandielDurans/CRUD-com-Node-e-Sqlite.git
 
 2. Navegue até o diretório do projeto
+   ```
+         cd CRUD-com-Node-e-Sqlite
 
-      cd CRUD-com-Node-e-Sqlite
-
-3. Instale as dependências
+4. Instale as dependências
 
       npm install
 

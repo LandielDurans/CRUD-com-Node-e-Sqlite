@@ -45,8 +45,8 @@ Este projeto utiliza o SQLite como banco de dados. O banco será gerado automati
 
 1. Criar um novo produto
 
-URL: /products
-Método: POST
+- URL: /products
+- Método: POST
 
 Aqui está um exemplo que você pode usar:
 
@@ -62,8 +62,8 @@ Aqui está um exemplo que você pode usar:
 ```
 2. Listar todos os produtos
 
-URL: /products
-Método: GET
+- URL: /products
+- Método: GET
 
 ## Exemplo de uso
 
@@ -84,8 +84,8 @@ Método: GET
 
 3. Atualizar um produto
 
-URL: /products:id
-Método: PUT
+- URL: /products:id
+- Método: PUT
 
 ```Json
 {
@@ -98,8 +98,8 @@ Método: PUT
 
 4. Deletar um produto
 
-URL: /products:id
-Método: DELETE
+- URL: /products:id
+- Método: DELETE
 
 ```Json
 {

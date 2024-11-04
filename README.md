@@ -14,6 +14,8 @@ Para rodar este projeto, você precisará ter:
 
 - [Node.js](https://nodejs.org/) instalado na versão 14 ou superior.
 - [NPM](https://www.npmjs.com/) (geralmente incluído com o Node.js).
+- [Express.JS](https://expressjs.com/pt-br/) instalado na versão 4.21 ou superior
+- [JOI](https://www.npmjs.com/package/joi) pode ser instalado com o npm.
 
 ## Instalação
 

@@ -1,5 +1,6 @@
 const Product = require("../models/product")
-const AvailableID = require('../models/AvailableID')
+const AvailableID = require('../models/AvailableID');
+const sequelize = require("../config/database");
 
 const products = [] // Armazena os produtos
 
@@ -68,17 +69,24 @@ exports.updateProduct = async (req, res) => {
 
 // Deleta o produto
 exports.deleteProduct = async (req, res) => {
+    const transaction = await sequelize.transaction()
     try {
         const product = await Product.findByPk(req.params.id)
-        res.status(404).json({message: 'Produto deletado com sucesso'})
-        if (!product) return res.status(404).json({ message: 'Produto não encontrado' })
+        if (!product) {
+            return res.status(400).json({ message: 'Produto não encontrado.' })
+        }
         await AvailableID.create({ id: req.params.id })
 
         await Product.destroy({
-            where: { id: req.params.id }
+            where: { id: req.params.id },
+            transaction
         })
-        res.status(204).send()
+
+        await transaction.commit()
+        res.status(200).json({ message: 'Produto deletado com sucesso.' })
+
     } catch (error) {
-        res.status(500).json({ message: error.message })
+        await transaction.rollback()
+        res.status(500).json({ message: 'Erro ao deletar o produto. Tente novamente mais tarde.' })
     }
 }

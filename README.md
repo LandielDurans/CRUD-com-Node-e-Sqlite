@@ -123,7 +123,3 @@ As validações dos dados de entrada são feitas com o pacote Joi. Os dados deve
 - Express - Framework web para Node.js.
 - SQLite - Banco de dados relacional leve.
 - Joi - Biblioteca de validação de dados para JavaScript.
-
----
-
-Esse README oferece uma visão geral e é uma ótima introdução para usuários e colaboradores. Se precisar de ajustes específicos, me avise!
